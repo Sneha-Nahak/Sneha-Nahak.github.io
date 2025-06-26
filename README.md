@@ -19,7 +19,7 @@ A modern, responsive, and theme-switchable portfolio website built using **React
 ---
 
 ## 📁 Folder Structure
-
+```
 my-portfolio/
 │
 ├── public/
@@ -38,4 +38,4 @@ my-portfolio/
 ├── package.json
 ├── README.md
 └── vite.config.js
-
+```

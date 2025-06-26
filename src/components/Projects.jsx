@@ -3,8 +3,20 @@ import './Projects.css';
 import employeproductivitytracker from '../assets/employee-productivity-tracker.png'
 import nestHive from '../assets/nestHive.png'
 import flipcardGame from '../assets/Flipcard-Game.png'
+import EcoGoals from '../assets/EcoGoals.png'
+
 const projectData = [
-   {
+   
+  {
+    title: 'EcoGoals - Habit Management Tracker',
+    type: 'Individual Project',
+    description: 'EcoGoals is a full-stack web application designed to help users build and maintain eco-friendly habits, featuring visual progress tracking and activity monitoring.',
+    teckStack: 'NodeJs,ExpressJs,MongoDB,React,Tailwind CSS',
+    image: EcoGoals,
+    code:'https://github.com/Sneha-Nahak/EcoGoal_Platform',
+    live_link: 'https://eco-goal-platform.vercel.app/'
+  },
+  {
     title: 'Flipcard Game',
     type: 'Group-based Project',
     description: 'A MERN stack web app where players match card pairs. Features include timers, difficulty levels, user auth, and a leaderboard for tracking top scores.',
